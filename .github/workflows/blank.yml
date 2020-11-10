@@ -20,7 +20,7 @@ jobs:
         flags: '-avzr --delete'
         options: '--exclude="wp-content/uploads/*" --exclude="wp-content/cache/*"'
         ssh_options: '-p 99999'
-        src: 'www/'
+        src: ''
         dest: 'testdevwp.ein-des-ein.com/'
 
     - name: Display status from deploy
