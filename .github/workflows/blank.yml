@@ -21,7 +21,7 @@ jobs:
         options: '--exclude="wp-content/uploads/*" --exclude="wp-content/cache/*"'
         ssh_options: '-p 22'
         src: 'www'
-        dest: 'vlad@s15.aiwebhost.com:/testdevwp.ein-des-ein.com'
+        dest: 'vlad@ein-des-ein.com:/testdevwp.ein-des-ein.com'
 
     - name: Display status from deploy
       run: echo "${{ steps.deploy.outputs.status }}"
