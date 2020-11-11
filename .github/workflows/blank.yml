@@ -19,7 +19,7 @@ jobs:
       with:
         flags: '-avzr --delete'
         options: '--exclude="wp-content/uploads/*" --exclude="wp-content/cache/*"'
-        ssh_options: '-p 21'
+        ssh_options: '-p 2222'
         src: 'www'
         dest: 'vl@ein-des-ein.com:testdevwp.ein-des-ein.com'
 
