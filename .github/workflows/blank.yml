@@ -19,9 +19,9 @@ jobs:
       with:
         flags: '-avzr --delete'
         options: '--exclude="wp-content/uploads/*" --exclude="wp-content/cache/*"'
-        ssh_options: '-p 2222'
+        ssh_options: '-p 22'
         src: 'www'
-        dest: 'vl@ein-des-ein.com:testdevwp.ein-des-ein.com'
+        dest: 'vlad@eindesein.com:testdevwp.ein-des-ein.com'
 
     - name: Display status from deploy
       run: echo "${{ steps.deploy.outputs.status }}"
